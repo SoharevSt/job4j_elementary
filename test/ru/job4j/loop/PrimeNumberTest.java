@@ -29,4 +29,5 @@ public class PrimeNumberTest {
         int expected = 1;
         assertEquals(expected, result);
     }
+
 }
