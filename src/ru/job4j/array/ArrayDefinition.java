@@ -10,5 +10,14 @@ public class ArrayDefinition {
 
         float[] prices = new float[40];
         System.out.println(prices.length);
+
+        String[] names = new String[4];
+        names[0] = "Ivan";
+        names[1] = "Petr";
+        names[2] = "Mihail";
+        names[3] = "Vladimir";
+        for (int i = 0; i < names.length; i++) {
+            System.out.println(names[i]);
+        }
     }
 }
